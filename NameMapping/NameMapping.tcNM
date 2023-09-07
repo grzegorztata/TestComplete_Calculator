@@ -234,9 +234,103 @@
 															</Child>
 														</Children>
 													</Child>
+													<Child Name="Display_is_24" Key="{FB24CC38-B6AC-4543-B25B-AAA218F534F6}">
+														<Image FileName="1841123377" Left="11" Top="155" Right="491" Bottom="268" />
+														<TypeInfo Item0="{9396F052-17DF-4D2C-9287-5A0476B70FB8}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="0" Type="0" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="text" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Display_is_24" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextContainer" Key="{325E933C-0C7A-4D31-B6B6-27B1CF2C151D}">
+																<Image FileName="1841123377" Left="29" Top="155" Right="473" Bottom="268" />
+																<TypeInfo Item0="{9396F052-17DF-4D2C-9287-5A0476B70FB8}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="ScrollViewer" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="pane" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="TextContainer" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="NormalOutput" Key="{CBBC0DB6-31C3-46FA-AB0D-9EE53956E05D}">
+																		<Image FileName="1841123377" Left="395" Top="155" Right="472" Bottom="247" />
+																		<TypeInfo Item0="{9396F052-17DF-4D2C-9287-5A0476B70FB8}" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="XAML" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value Value="TextBlock" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="text" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="NormalOutput" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
 												</Children>
 											</Child>
+											<Child Name="Standard_Calculator_mode" Key="{03817BAB-3849-4020-A29D-132B083E7299}">
+												<Image FileName="1568537053" Left="83" Top="63" Right="206" Bottom="103" />
+												<TypeInfo Item0="{ABC28FAF-2FBB-4123-BB8D-5FCCD9CEAAC4}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="TextBlock" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="text" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Standard_Calculator_mode" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
+									</Child>
+									<Child Name="Calculator" Key="{0635E840-DB82-4ADC-84B2-D923D5DA53AF}">
+										<Image FileName="97188560" Left="83" Top="13" Right="165" Bottom="37" />
+										<TypeInfo Item0="{ABC28FAF-2FBB-4123-BB8D-5FCCD9CEAAC4}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="XAML" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="TextBlock" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="text" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Calculator" />
+											</Property>
+										</Properties>
 									</Child>
 								</Children>
 							</Child>
@@ -264,8 +358,15 @@
 							<Child Name="Multiply_by" Owner="{40453C6C-1717-4DE1-954A-55D18E5CD259}" />
 							<Child Name="Equals" Owner="{5466891D-0EFA-4D7A-8A2F-5AF1AF7BB40F}" />
 						</Child>
+						<Child Name="Display_is_24" Owner="{FB24CC38-B6AC-4543-B25B-AAA218F534F6}">
+							<Child Name="TextContainer" Owner="{325E933C-0C7A-4D31-B6B6-27B1CF2C151D}">
+								<Child Name="NormalOutput" Owner="{CBBC0DB6-31C3-46FA-AB0D-9EE53956E05D}" />
+							</Child>
+						</Child>
 					</Child>
+					<Child Name="Standard_Calculator_mode" Owner="{03817BAB-3849-4020-A29D-132B083E7299}" />
 				</Child>
+				<Child Name="Calculator" Owner="{0635E840-DB82-4ADC-84B2-D923D5DA53AF}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

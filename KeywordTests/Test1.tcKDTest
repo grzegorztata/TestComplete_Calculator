@@ -25,10 +25,10 @@
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Microsoft_WindowsCalculator.Calculator.NavView.LandmarkTarget.Display_is_0.TextContainer" />
-						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Name" />
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Microsoft_WindowsCalculator.Calculator.Calculator" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="ObjectIdentifier" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="UIAObject(&quot;TextContainer&quot;)" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Calculator" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
@@ -104,10 +104,10 @@
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
-						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Microsoft_WindowsCalculator.Calculator.NavView.LandmarkTarget.Display_is_0.TextContainer.NormalOutput" />
-						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Microsoft_WindowsCalculator.Calculator.NavView.LandmarkTarget.Display_is_24.TextContainer.NormalOutput" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="FullName" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="24" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Sys.Process(&quot;Microsoft.WindowsCalculator&quot;).UIAObject(&quot;Calculator&quot;).UIAObject(&quot;NavView&quot;).UIAObject(&quot;LandmarkTarget&quot;).UIAObject(&quot;Display_is_24&quot;).UIAObject(&quot;TextContainer&quot;).UIAObject(&quot;NormalOutput&quot;)" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
